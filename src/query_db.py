@@ -3,7 +3,6 @@ from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
 
-# Load Mongo URI From env
 load_dotenv()
 MONGO_URI = os.getenv('MONGO_URI')
 db_name = 'job_candidates'

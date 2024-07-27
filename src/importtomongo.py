@@ -8,11 +8,15 @@ load_dotenv()
 MONGO_URI = os.getenv('MONGO_URI')
 db_name = 'job_candidates'
 collection_name = 'candidates'
+
+# Connect to MongoDB
 client = MongoClient(MONGO_URI)
 print(client)
 
+# List all databases
 databases = client.list_database_names()
 print("Databases:", databases)
+
 
 db = client[db_name]
 collections = db.list_collection_names()
