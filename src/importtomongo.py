@@ -17,7 +17,7 @@ print(client)
 databases = client.list_database_names()
 print("Databases:", databases)
 
-
+# Accessing job_candidates
 db = client[db_name]
 collections = db.list_collection_names()
 print("Collections in '{}':".format(db_name), collections)
