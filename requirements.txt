@@ -1,4 +1,4 @@
-faiss-ai
+faiss-cpu
 sentence-transformers
 pymongo
 numpy 
