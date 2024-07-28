@@ -5,3 +5,4 @@ numpy
 load-dotenv
 os
 pandas
+transformers
