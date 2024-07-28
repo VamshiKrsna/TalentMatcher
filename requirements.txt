@@ -1,0 +1,7 @@
+faiss-ai
+sentence-transformers
+pymongo
+numpy 
+load-dotenv
+os
+pandas

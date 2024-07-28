@@ -62,7 +62,7 @@ def search_faiss(query, model, index, top_k=5):
 
 # Example usage
 if __name__ == "__main__":
-    query = "Data scientist with experience in machine learning"
+    query = "machine learning engineer python"
     distances, indices = search_faiss(query, model, index)
     
     print(f"Top {len(indices[0])} matches:")
